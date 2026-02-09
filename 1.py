@@ -1,0 +1,6 @@
+wordinp = input("Введите шифровку: ")
+word_list = wordinp.split()
+uniq_word = set(word_list)
+print(f"Количество: {len(uniq_word)}")
+sort_word = sorted(uniq_word)
+print("Слова", " ".join(sort_word))
